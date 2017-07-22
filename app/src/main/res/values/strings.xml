@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">TrackME</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_map">Map</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="filter">Filter</string>
+    <string name="preferences">Preferences</string>
+    <string name="activities">Activities</string>
+    <string name="last_trip">Last Trip</string>
+    <string name="trips">Trips</string>
+    <string name="places">Places</string>
+    <string name="top_places_based_on_time">Top Places Based On The Time Spent</string>
+    <string name="no_trips">No trips to show.</string>
+    <string name="no_places">No places to show.</string>
+    <string name="no_notifications">No notifications to show.</string>
+    <string name="hint_trip_name">Trip Name</string>
+    <string name="dialog_trip_title">Would you like to name your trip?</string>
+
+    <string name="default_trip_name">Trip #%1$d</string>
+    <string name="invalid_trip_name">Please enter valid trip name. [2,100]</string>
+
+    <string name="stop_tracking">Stop Tracking</string>
+    <string name="location_service">Location Service</string>
+    <string name="trip_name_prefix">Trip:</string>
+    <string name="tracking_searching">Searching for your location..</string>
+    <string name="tracking_ready">Ready to track you!</string>
+    <string name="tracking_watching">You are being watched..</string>
+    <string name="tracking_status">Place: %1$s \nDistance: %2$f \nPosition: %3$s \nSpeed: %4$f m/s</string>
+    <string name="unknown_place">Fetching the place..</string>
+    <string name="tracking_disabled">Location provider is disabled.</string>
+    <string name="tracking_disabled_text">You need to turn on location service to continue tracking.</string>
+
+    <string name="walking">WALKING</string>
+    <string name="stationary">STATIONARY</string>
+    <string name="vehicle">VEHICLE</string>
+
+    <string name="enable_location_provider">You need to enable location provider.</string>
+    <string name="trip_will_be_deleted">The trip will be deleted because of no locations to save.</string>
+    <string name="go_on_a_trip">Go on a trip!</string>
+    <string name="maximum_speed">Maximum Speed</string>
+    <string name="average_speed">Average Speed</string>
+    <string name="distance">Distance</string>
+    <string name="freq_visit">The frequency of visit</string>
+    <string name="freq_time">The frequency of time</string>
+    <string name="last_visit_date">Last Visit Date</string>
+    <string name="address">Address</string>
+    <string name="meters">meters</string>
+    <string name="see_all_places">see all places</string>
+
+    <string name="delete_trip">Delete Trip</string>
+    <string name="delete_trip_dialog_text">Are you sure to delete this trip?</string>
+
+    <string name="internet_connection">Internet Connection</string>
+    <string name="internet_connection_dialog_text">There is need internet connection in order to detect places.</string>
+
+    <string name="show_details_title">Details of Trip</string>
+    <string name="show_details_summary">Show details of the trip on notification during tracking.</string>
+    <string name="low_battery_title">Low Battery</string>
+    <string name="low_battery_summary">Stop recording locations if the battery capacity drops below critical level.</string>
+    <string name="location_provider_title">Location Provider</string>
+    <string name="location_frequency_title">Location Frequency</string>
+    <string name="location_frequency_summary">Choose how often you want to retrieve locations from the provider.</string>
+    <string name="place_frequency_title">Place Detection Frequency</string>
+    <string name="place_frequency_summary">Choose how often you want to detect the place from locations.</string>
+    <string name="location">Location</string>
+    <string name="reset_database">Reset Database</string>
+    <string name="reset_database_dialog_text">Are you sure to reset the database?</string>
+    <string name="information">Information</string>
+    <string name="about_app">About Application</string>
+    <string name="used_libraries">Used Libraries</string>
+    <string name="libraries" translatable="false">\n- HelloCharts (lecho)</string>
+
+    <string-array name="location_provider_entries">
+        <item>GPS</item>
+        <item>Network</item>
+    </string-array>
+
+    <string-array name="location_provider_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="location_freq_entries">
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+    </string-array>
+
+    <string-array name="location_freq_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="place_freq_entries">
+        <item>5 locations</item>
+        <item>10 locations</item>
+        <item>15 locations</item>
+    </string-array>
+
+    <string-array name="place_freq_values" translatable="false">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+
+</resources>

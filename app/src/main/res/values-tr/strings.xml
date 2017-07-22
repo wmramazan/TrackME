@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrackME</string>
+    <string name="about_app">Uygulama Hakkında</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="activities">Etkinlikler</string>
+    <string name="default_trip_name">Yolculuk #%1$d</string>
+    <string name="average_speed">Ortalama Hız</string>
+    <string name="delete_trip">Yolculuğu Sil</string>
+    <string name="delete_trip_dialog_text">Bu yolculuğu silmek istediğinize emin misiniz?</string>
+    <string name="dialog_trip_title">Yolculuğunuza bir isim vermek ister misiniz?</string>
+    <string name="distance">Uzaklık</string>
+    <string name="enable_location_provider">Konum sağlayıcısını etkinleştirmelisiniz.</string>
+    <string name="end_date">Bitiş Tarihi</string>
+    <string name="filter">Filtrele</string>
+    <string name="freq_time">Zaman Sıklığı</string>
+    <string name="freq_visit">Ziyaret Sıklığı</string>
+    <string name="go_on_a_trip">Yolculuğa çık!</string>
+    <string name="hint_trip_name">Yolculuk İsmi</string>
+    <string name="information">Bilgi</string>
+    <string name="internet_connection">İnternet Bağlantısı</string>
+    <string name="internet_connection_dialog_text">Mekanları belirlemek için internet bağlantısına ihtiyaç var.</string>
+    <string name="invalid_trip_name">Lütfen geçerli bir yolculuk ismi girin. [2,100]</string>
+    <string name="last_trip">Son Yolculuk</string>
+    <string name="last_visit_date">Son Ziyaret Tarihi</string>
+    <string name="location">Konum</string>
+    <string name="location_frequency_summary">Konumların sağlayıcıdan hangi sıklıkla alınacağını seçin</string>
+    <string name="location_frequency_title">Konum Sıklığı</string>
+    <string name="location_provider_title">Konum Sağlayıcı</string>
+    <string name="location_service">Konum Servisi</string>
+    <string name="low_battery_summary">Eğer pil seviyesi kritik seviyeye düşerse, konumları kaydetmeyi durdur.</string>
+    <string name="low_battery_title">Düşük Pil</string>
+    <string name="maximum_speed">En Fazla Hız</string>
+    <string name="meters">metre</string>
+    <string name="no_notifications">Gösterilecek bildiri yok.</string>
+    <string name="no_places">Gösterilecek mekan yok.</string>
+    <string name="no_trips">Gösterilecek yolculuk yok.</string>
+    <string name="place_frequency_summary">Mekanların konumlardan hangi sıklıkla bulunacağını seçin.</string>
+    <string name="place_frequency_title">Mekan Bulma</string>
+    <string name="places">Mekanlar</string>
+    <string name="preferences">Tercihler</string>
+    <string name="reset_database">Veritabanını Sıfırla</string>
+    <string name="reset_database_dialog_text">Veritabanını sıfırlamak istediğinize emin misiniz?</string>
+    <string name="see_all_places">hepsini gör</string>
+    <string name="show_details_summary">Takip sırasında yolculuk detaylarını bildirimde göster.</string>
+    <string name="show_details_title">Yolculuk Detayları</string>
+    <string name="start_date">Başlangıç Tarihi</string>
+    <string name="stationary">DURGUN</string>
+    <string name="stop_tracking">Durdur</string>
+    <string name="title_dashboard">Panel</string>
+    <string name="title_map">Harita</string>
+    <string name="title_notifications">Bildirimler</string>
+    <string name="top_places_based_on_time">En çok zaman harcanan mekanlar</string>
+    <string name="tracking_disabled">Konum sağlayıcısı etkin değil.</string>
+    <string name="tracking_disabled_text">Takibe devam edebilmek için konum servisini açmalısınız.</string>
+    <string name="tracking_ready">Takip etmeye hazır!</string>
+    <string name="tracking_searching">Konumunuz belirleniyor..</string>
+    <string name="trip_name_prefix">Yolculuk:</string>
+    <string name="tracking_watching">İzleniyorsunuz..</string>
+    <string name="trip_will_be_deleted">Kaydedilecek konum olmadığından yolculuk silinecek.</string>
+    <string name="trips">Yolculuklar</string>
+    <string name="unknown_place">Mekan alınıyor..</string>
+    <string name="used_libraries">Kullanılan Kütüphaneler</string>
+    <string name="vehicle">ARAÇ</string>
+    <string name="walking">YÜRÜME</string>
+    <string name="tracking_status">Mekan: %1$s \nUzaklık: %2$f \nKonum: %3$s \nHız: %4$f m/s</string>
+
+    <string-array name="location_provider_entries">
+        <item>GPS</item>
+        <item>Ağ Bağlantısı</item>
+    </string-array>
+
+    <string-array name="location_freq_entries">
+        <item>1 saniye</item>
+        <item>2 saniye</item>
+        <item>3 saniye</item>
+    </string-array>
+
+    <string-array name="place_freq_entries">
+        <item>5 konum</item>
+        <item>10 konum</item>
+        <item>15 konum</item>
+    </string-array>
+    <string name="address">Adres</string>
+</resources>

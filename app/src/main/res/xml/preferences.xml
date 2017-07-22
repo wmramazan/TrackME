@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="show_details"
+        android:title="@string/show_details_title"
+        android:summary="@string/show_details_summary"
+        android:defaultValue="true"/>
+
+    <SwitchPreference
+        android:key="low_battery"
+        android:title="@string/low_battery_title"
+        android:summary="@string/low_battery_summary"
+        android:defaultValue="false"/>
+
+    <Preference android:title="@string/reset_database" android:key="reset_database"/>
+
+    <PreferenceCategory android:title="@string/location">
+
+        <ListPreference
+            android:key="location_provider"
+            android:entries="@array/location_provider_entries"
+            android:entryValues="@array/location_provider_values"
+            android:defaultValue="0"
+            android:title="@string/location_provider_title"
+            android:summary="%s"/>
+
+        <ListPreference
+            android:key="location_freq"
+            android:entries="@array/location_freq_entries"
+            android:entryValues="@array/location_freq_values"
+            android:defaultValue="3"
+            android:title="@string/location_frequency_title"
+            android:summary="@string/location_frequency_summary"/>
+
+        <ListPreference
+            android:key="place_freq"
+            android:entries="@array/place_freq_entries"
+            android:entryValues="@array/place_freq_values"
+            android:defaultValue="5"
+            android:title="@string/place_frequency_title"
+            android:summary="@string/place_frequency_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/information">
+
+        <Preference android:title="@string/about_app" android:key="about_app"/>
+        <Preference android:title="adnagu.com" android:key="pref_adnagu">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://adnagu.com"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>
